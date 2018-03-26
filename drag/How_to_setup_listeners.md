@@ -30,7 +30,7 @@ yourwidget.addEventListener("mousemove", handleMousemove);
 The problem of this solution is:
 if user moves mouse too fast and somehow the element cannot catch up with you mouse. At that time, the 'mousemove' event listener will not be trigged anymore, and user need to move the mouse back to the element to trigger the listener, which will offer a bad user experience.
 
-some solution for this issue case:
+some solutions for this issue case:
 1. you can use event delegation to add listener to a big enough element. This solution works well for most of the time. But adding event listener on a big element may have side effect on some of your existing listeners code.
 2. (suggested) In the real production environment, what I used is to add some temprary capture phase event listener on document, see example below:
 
