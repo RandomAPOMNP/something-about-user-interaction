@@ -1,4 +1,4 @@
-when you want to drag an element on your page, the common idea will be adding a listener on the element or on the parent element(for Event Delegation), here is example of this solution:(ignore the memory leak in this example:) )
+when you want to drag an element on your page, the common idea will be adding a listener on the element or on the parent element (for Event Delegation), here is example of this solution:
 
 ```html
 <div id="yourwidget">
