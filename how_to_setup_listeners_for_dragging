@@ -1,4 +1,4 @@
-when you want to drag an element on your page, the common idea will be adding a listener on the element or on the parent element (for Event Delegation), here is example of this solution:
+when you want to drag an element on your page, and you dont want to use the HTML5 drag API, the common idea will be adding a listener on the element or on the parent element (for Event Delegation), here is example of this solution:
 
 ```html
 <div id="yourwidget">
